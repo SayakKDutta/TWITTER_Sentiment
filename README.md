@@ -11,13 +11,15 @@ The importance of detecting and moderating hate speech is evident from the stron
 to prevent an escalation from speech to action. Sites such as Twitter and Facebook have been seeking to actively combat hate speech. 
 In spite of these reasons, NLP research on hate speech has been very limited, primarily due to the lack of a general definition of hate speech, an analysis of its demographic influences, and an investigation of the most effective features.
 
+
+## Dataset Overview
+- The dataset contains tweets with sentiments labeled as positive(0) or negative(1).
+- Preprocessing steps include tokenization, lemmatization, and converting words to word vectors using pre-trained GloVe embeddings.
+- Exploratory data analysis is limited due to the nature of the task, focusing more on model evaluation metrics.
+
 ## Project Goal 
 The goal of this project is to develop a sentiment analysis model that can classify tweets into positive or negative categories based on their content. The model's performance is evaluated based on metrics such as accuracy, precision, recall, and F1-score.
 
-## Dataset Overview
-- The dataset contains tweets with sentiments labeled as positive or negative.
-- Preprocessing steps include tokenization, lemmatization, and converting words to word vectors using pre-trained GloVe embeddings.
-- Exploratory data analysis is limited due to the nature of the task, focusing more on model evaluation metrics.
 
 ## Modeling Approach
 - Tokenization and lemmatization are performed using NLTK (Natural Language Toolkit).
